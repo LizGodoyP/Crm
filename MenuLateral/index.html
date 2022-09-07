@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú Lateral</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css'><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class='dashboard'>
+    <div class="dashboard-nav">
+        <header><a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a><a href="#" class="brand-logo">
+            <i class="#"></i> <span>Menú</span></a></header>
+        <nav class="dashboard-nav-list"><a href="#" class="dashboard-nav-item"><i class="fas fa-home"></i>
+            Home </a>
+            <div class='dashboard-nav-dropdown'><a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i
+                    class="fas fa-file-upload"></i> Inventariado </a>
+                <div class='dashboard-nav-dropdown-menu'>
+                    <a href="#" class="dashboard-nav-dropdown-item">Añadir</a>
+                    <a href="#" class="dashboard-nav-dropdown-item">Modificar</a>
+                    <a href="#" class="dashboard-nav-dropdown-item">Agotados</a>
+                </div>
+            </div>
+            <div class='dashboard-nav-dropdown'><a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i
+                class="fas fa-money-check-alt"></i> Cotizaciones </a>
+                <div class='dashboard-nav-dropdown-menu'>
+                    <a href="../Cotizaciones/crearCotizacion.html" class="dashboard-nav-dropdown-item">Crear</a>
+                    <a href="#" class="dashboard-nav-dropdown-item">En proceso</a>
+                    <a href="#" class="dashboard-nav-dropdown-item">Aceptados</a>
+                </div>
+            </div>
+            <a href="#" class="dashboard-nav-item active"><i class="fas fa-tachometer-alt"></i>Estadística</a>
+            <div class='dashboard-nav-dropdown'><a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i
+                class="fas fa-cogs"></i> Configuración </a>
+                <div class='dashboard-nav-dropdown-menu'>
+                    <a href="#" class="dashboard-nav-dropdown-item">Usuario</a>
+                    <a href="#" class="dashboard-nav-dropdown-item">Proveedor</a>
+                </div>
+            </div>
+          <div class="nav-item-divider"></div>
+          <a
+                    href="../index.html" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i>Salir</a>
+        </nav>
+    </div>
+    <div class='dashboard-app'>
+        <header class='dashboard-toolbar'><a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a></header>
+        <div class='dashboard-content'>
+            <div class='container'>
+                <div class='card'>
+                    <div class='card-header'>
+                        <h1>Información de la </h1>
+                    </div>
+                    <div class='card-body'>
+                        <p>Su tipo de cuenta es: Administrator</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script><script  src="script.js"></script>
+</body>
+</html>

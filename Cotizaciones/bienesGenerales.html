@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Menú Lateral</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css'>
+    <link rel="stylesheet" href="../MenuLateral/style.css">
+    <link rel="stylesheet" href="cotizaciones.css">
+
+
+</head>
+
+<body>
+    
+    <div class='dashboard'>
+        <div class="dashboard-nav">
+            <header><a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a><a href="#" class="brand-logo">
+                    <i class="#"></i> <span>Menú</span></a></header>
+            <nav class="dashboard-nav-list"><a href="#" class="dashboard-nav-item"><i class="fas fa-home"></i>
+                    Home </a>
+                <div class='dashboard-nav-dropdown'><a href="#!"
+                        class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i class="fas fa-file-upload"></i>
+                        Inventariado </a>
+                    <div class='dashboard-nav-dropdown-menu'>
+                        <a href="#" class="dashboard-nav-dropdown-item">Añadir</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">Modificar</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">Agotados</a>
+                    </div>
+                </div>
+                <div class='dashboard-nav-dropdown'><a href="#!"
+                        class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i class="fas fa-money-check-alt"></i>
+                        Cotizaciones </a>
+                    <div class='dashboard-nav-dropdown-menu'>
+                        <a href="#" class="dashboard-nav-dropdown-item">Crear</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">En proceso</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">Aceptados</a>
+                    </div>
+                </div>
+                <a href="#" class="dashboard-nav-item active"><i class="fas fa-tachometer-alt"></i>Estadística</a>
+                <div class='dashboard-nav-dropdown'><a href="#!"
+                        class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i class="fas fa-cogs"></i>
+                        Configuración </a>
+                    <div class='dashboard-nav-dropdown-menu'>
+                        <a href="#" class="dashboard-nav-dropdown-item">Usuario</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">Proveedor</a>
+                    </div>
+                </div>
+                <div class="nav-item-divider"></div>
+                <a href="../index.html" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i>Salir</a>
+            </nav>
+        </div>
+        <div class='dashboard-app'>
+            <header class='dashboard-toolbar'><a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a></header>
+            <div class='dashboard-content'>
+                <div class='container'>
+                    <div class='card'>
+                        <h1 class="titulo">Cotización de Bienes Generales</h1>
+                        <div class='card-header'>
+                            <h1>Añadir Ítem</h1>
+                        </div>
+                        <div class='card-body'>
+                            <section>
+                                <div class="input-field input-cotizacion">
+                                    <h3 class="cotizacion">N° de cotización: 2022-0001 </h3>
+                                    
+                                </div>
+                                <form action="#" class="sign-up-form">
+                                    
+                                    
+                                    <div class="input-field">
+                                        <h3>Descripción: </h3> <input type="text"
+                                            placeholder="" />
+                                    </div>
+                                    <div class="input-field">
+                                        <h3>Marca: </h3><input type="text" placeholder="" />
+                                    </div>
+                                    <div class="input-field">
+                                        <h3>Unidad de medida: </h3><input type="text" placeholder="" />
+                                    </div>
+                                    <div class="input-field">
+                                        <h3>Cantidad: </h3><input type="number" placeholder="" />
+                                    </div>
+                                    <div class="input-field">
+                                        <h3>Precio unitario: </h3><input type="number" placeholder="" />
+                                    </div>
+                                    <div class="btn-sgte">
+                                        <button class="btn">Añadir</button>
+                                    </div> 
+
+
+                                </form>
+                                
+                            </section>
+                        </div>
+
+                        <div class='card-header'>
+                            <h1>Ítems Agregados</h1>
+                        </div>
+                        <div class='card-body'>
+                            <section>
+                                <div class="sign-up-form">
+                                    <table class="table">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">N° de ítem</th>
+                                            <th scope="col">Descripción</th>
+                                            <th scope="col">Marca</th>
+                                            <th scope="col">Unidad de medida</th>
+                                            <th scope="col">Cantidad</th>
+                                            <th scope="col">Precio Unitario</th>
+                                            <th scope="col"></th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td class="td-icono"> <a class="btn-icono">
+                                                <i class="fa fa-edit"></i></a>
+                                                <a class="btn-icono">
+                                               <i class="fas fa-trash-alt"></i></a></td>
+                                          </tr>
+                                    
+                                        </tbody>
+    
+                                        
+                                      </table>
+                                      <div class="btn-sgte new-cotizacion">
+                                        <button class="btn">Visualizar cotización</button>
+                                        <button class="btn">Generar cotización</button>
+                                    </div> 
+
+                                </div>
+                                
+                                  
+                                  
+                            </section>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script>
+    <!-- CSS only -->
+
+    <script src="../MenuLateral/script.js"></script>
+
+    
+</body>
+
+
+</html>
