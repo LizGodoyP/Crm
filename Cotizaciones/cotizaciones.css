@@ -75,15 +75,13 @@ option{
     border-radius: 10px;
 }
 
+
 .input-field, .contenedor-btn-file{
     align-items: center;
     justify-content: left;
     display: flex;
     column-gap: 15px;
     margin-bottom: 10px;
-   
- 
-
 }
 .input-cotizacion{
     max-width: 500px !important;
@@ -131,9 +129,7 @@ h3{
     left: 0;
     margin: 0;
     right: 0;
-    top: 50%;
- 
-   
+    top: 50%;   
 }
 --file
 .contenedor-btn-file input[type="file"]{
@@ -182,6 +178,10 @@ label{
 }
 .infor2{
     width: auto !important;
+}
+.infor3{
+    width: 140px !important;
+
 }
 .card-header{
     
