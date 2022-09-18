@@ -23,12 +23,12 @@ section{
     display: grid;
     height: auto;
     width: 100%;
+   
  
 }
 .sign-up-form{
     padding: 20px;
-    border-radius: 20px;
-   
+    border-radius: 20px;  
     box-shadow: 4px 4px 10px 1px #00000033;
     /* box-shadow: inset -5em -1em rgba(39, 3, 124, 0.966); */
 }
@@ -225,12 +225,12 @@ label{
 
 }
 tr, th{
-    width: 15%;
+    width: 14%;
     text-align: left;
     color: black;
     border-radius: 5px;
     font-size: 12px;
-    padding: 5px;
+    padding: 10px 5px;
     
 }
 th{
@@ -240,7 +240,7 @@ th{
 }
 td{
     background-color: var(--color-plomo1);
-    padding: 5px;
+    padding: 10px 5px;
 }
 
  @media screen and (max-width:800px){
